@@ -17,3 +17,11 @@ $ git checkout -- file 一种是readme.txt自修改后还没有被放到暂存�
 一种是readme.txt已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。命令中的--很重要，没有--，就变成了“切换到另一个分支”的命令
 $ git rm readme.rtf
 $ git commit -m “discribe”删除一个文件 一定要执行提交的动作
+//显示影藏文件和影藏影藏文件
+显示：defaults write com.apple.finder AppleShowAllFiles -bool true
+隐藏：defaults write com.apple.finder AppleShowAllFiles -bool false 
+
+要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git；
+如 $ git remote add origin git@github.com:michaelliao/learngit.git
+关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
+此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
