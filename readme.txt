@@ -27,3 +27,10 @@ $ git commit -m “discribe”删除一个文件 一定要执行提交的动作
 此后，每次本地提交后，只要有必要，就可以使用命令$ git push origin master推送最新修改；
 
 $ git clone git@github.com:iamdalianmao/dalianmaoBlog.git //从远程库克隆一个项目到本地的git库
+
+查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name>
+创建+切换分支：git checkout -b <name>
+合并某分支到当前分支：git merge <name>
+删除分支：git branch -d <name>
