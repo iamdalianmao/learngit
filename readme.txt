@@ -21,7 +21,9 @@ $ git commit -m “discribe”删除一个文件 一定要执行提交的动作
 显示：defaults write com.apple.finder AppleShowAllFiles -bool true
 隐藏：defaults write com.apple.finder AppleShowAllFiles -bool false 
 
-要关联一个远程库，使用命令git remote add origin git@github.com:iamdalianmao/learngit.git
+要关联一个远程库，使用命令$ git remote add origin git@github.com:iamdalianmao/learngit.git
 如 $ git remote add origin git@github.com:iamdalianmao/learngit.git
 关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
-此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
+此后，每次本地提交后，只要有必要，就可以使用命令$ git push origin master推送最新修改；
+
+$ git clone git@github.com:iamdalianmao/dalianmaoBlog.git //从远程库克隆一个项目到本地的git库
