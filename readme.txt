@@ -36,7 +36,8 @@ $ git clone git@github.com:iamdalianmao/dalianmaoBlog.git //从远程库克隆�
 切换分支：git checkout <name>
 创建+切换分支：git checkout -b <name>
 合并某分支到当前分支：git merge <name>
-删除分支：git branch -d <name>
+删除分支：git branch -d <name> //如果该分支没有合并到主分支会报错
+git branch -D mystudygit1.0   //强制删除
 
 用git log --graph命令可以看到分支合并图。
 
