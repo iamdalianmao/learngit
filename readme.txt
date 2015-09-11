@@ -7,6 +7,9 @@ $ git commit -m “describe”// 提交文件，-m 后面跟的是此次提交�
 $ git status //查看git的当前状态
 $ git diff //查看git哪些文件做了哪些修改
 
+如果你没有看到.git目录，那是因为这个目录默认是隐藏的，用ls -ah命令就可以看见。
+
+
 $ git log //查看历史记录
 $ git log - -pretty=oneline //查看历史记录单行显示
 $ git reset - -hard HEAD^ //回退到上一版本，HEAD^^回退上2个版本，HEAD~100回退上一百版本
