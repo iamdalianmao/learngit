@@ -100,3 +100,41 @@ $ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Cre
 配置Git的时候，加上--global是针对当前用户起作用的，如果不加，那只针对当前的仓库起作用。
 配置文件放哪了？每个仓库的Git配置文件都放在.git/config文件中
 别名就在.git/config中的[alias]后面，要删除别名，直接把对应的行删掉即可。
+
+
+网上看到的常用命令
+git remote add upstream https://github.com/winterIce/testTitle.git(别人的repository)    // 新建分支用于存放别人的repository
+
+git clone https://github.com/winterIce/testTitle.git  克隆到本地
+
+git fetch branch2//更新信息
+
+git merge branch2/master    //merge本地信息
+
+git add . //添加新文件或者更改新文件
+
+git remove  ** //删除文件
+
+git commit -m 'by who do what'  //提交文件到本地
+
+git push  push到服务器上
+
+git pull origin master 从服务器上拉取信息
+
+git remote  查看repository上的所有分支
+
+git branch -a  查看所有分支
+
+git branch -r 查看远程分支
+
+git branch -d *** //删除分支
+
+git branch *** //新建分支
+
+git checkout ***//切换分支
+
+git status //查看状态
+
+git log //查看提交修改记录
+
+
